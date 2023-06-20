@@ -1,0 +1,23 @@
+.edit-box {
+  position:relative;
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width:fit-content;
+ }
+
+.edit-button {
+  position: relative;
+  background-color: white;
+  border:none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.image {
+  width: 30px;
+  height: 30px;
+ }

@@ -1,0 +1,177 @@
+.card {
+    width: 100%;
+    border: none;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    border-radius: 4px;
+
+}
+
+.scroll_box{
+    height:450px!important;width:100%;border:1px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+}
+
+  .scroll_box{
+    height: 300px;
+  }
+.col-box{
+    margin: 0;
+    max-width: 98%;
+  }
+.gap_reservation{
+    padding-left: 5px !important;
+    border-left: #e9ecef;
+}
+.gap_reservation_1{
+    padding-left: 5px !important;
+    border-left: #e9ecef;
+    width: 30%;
+
+}
+.margin_bot{
+    margin-bottom: 12px;
+}
+.approved{
+    color: green;
+    font-weight: lighter;
+}
+.problems{
+    color: red;
+    font-weight: bold;
+}
+.expired{
+    color: lightgrey;
+    font-weight: bold;
+}
+.pending{
+    color: yellow;
+}
+.container-1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reserve_box{
+    width: 44%;
+}
+.user2{
+    background: #013a6f;
+}
+.white{
+    color: white;
+}
+.reply small{
+    color: black;
+
+}
+button{
+    border: #e9ecef;
+}
+a{
+    text-decoration: none;
+}
+.action{
+    color: red;
+}
+
+
+.switch-toggle {
+   float: left;
+   background: #013a6f;
+}
+.switch-toggle input {
+  position: absolute;
+  opacity: 0;
+}
+.switch-toggle input + label {
+  padding: 7px;
+  float:left;
+  color: #fff;
+  cursor: pointer;
+}
+.switch-toggle input:checked + label {
+  background: white;
+    color: black;
+}
+
+.switch-toggle1 {
+   float: left;
+   background: #013a6f;
+}
+.switch-toggle1 input {
+  position: absolute;
+  opacity: 0;
+}
+.switch-toggle1 input + label {
+  padding: 7px;
+  float:left;
+  color: #fff;
+  cursor: pointer;
+}
+.switch-toggle1 input:checked + label {
+  background: white;
+    color: black;
+}
+
+.switch-toggle2 {
+   float: left;
+   background: #013a6f;
+}
+.switch-toggle2 input {
+  position: absolute;
+  opacity: 0;
+}
+.switch-toggle2 input + label {
+  padding: 7px;
+  float:left;
+  color: #fff;
+  cursor: pointer;
+}
+.switch-toggle2 input:checked + label {
+  background: white;
+    color: black;
+}
+.pandding-top-60px{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.pandding-top-120px{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.pandding-right-120px{
+    position: absolute;
+    right: 0;
+    margin-top: 120px;
+    margin-right: 60px;
+}
+.gap_reservation4{
+    padding-left: 5px !important;
+    border-left: #e9ecef;
+    width: 20%;
+}
+
+.gap_reservation3{
+    padding-left: 5px !important;
+    border-left: #e9ecef;
+    width: 20%;
+}
+
+
+
+@media  only screen and (max-width: 690px) {
+    .container-1{
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .reserve_box{
+        width: 100%;
+    }
+    
+}
